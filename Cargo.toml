@@ -1,7 +1,8 @@
 [package]
 name = "i-spy-magic-eye"
-authors = ["Max Gilmour"]
+authors = ["Max Gilmour", "Michayla Siwak"]
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
+rand = "0.9.1"
