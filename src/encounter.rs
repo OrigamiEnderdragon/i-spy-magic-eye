@@ -9,9 +9,9 @@ pub fn create_encounter_list() -> Vec<Encounter> {
 
 #[derive(Debug, Clone, PartialEq, Eq)]
 pub struct Encounter {
-    name: String,
-    difficulty: usize,
-    allowed_stats: Vec<Stat>,
+    pub name: String,
+    pub difficulty: usize,
+    pub allowed_stats: Vec<Stat>,
 }
 impl Encounter {
     fn new(name: &str, difficulty_roll_faces: usize, allowed_stat_checks: &[Stat]) -> Self {
