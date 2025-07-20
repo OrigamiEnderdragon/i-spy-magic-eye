@@ -21,10 +21,10 @@ impl Character {
         Character {
             name: name.to_string(),
             description: description.to_string(),
-            vim: vim,
-            slinging: slinging,
-            dodging: dodging,
-            riding: riding,
+            vim,
+            slinging,
+            dodging,
+            riding,
         }
     }
 }
